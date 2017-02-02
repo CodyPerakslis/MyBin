@@ -1,0 +1,9 @@
+#!/bin/bash
+
+f_name=$HOME/Documents/.downloaded.txt
+
+if [ "$1" = "" ]; then
+	cat $f_name
+else
+	echo $1 >> $f_name
+fi

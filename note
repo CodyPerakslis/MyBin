@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+d_name=$HOME/Documents/Notes
+
+dt=$(date "+%y_%m_%d")
+f_name="${dt}.txt"
+
+final="${d_name}/${f_name}"
+
+touch $final
+
+if [ "$1" = "" ]; then
+	cat $final
+else
+	echo $1 >> $final
+fi

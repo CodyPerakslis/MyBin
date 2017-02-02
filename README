@@ -1,0 +1,12 @@
+This is the contents of my personal bin file.
+
+I put created these to either make my life easier or have a little fun.
+
+To access the scripts from anywhere, I put:
+	PATH="$HOME/bin:${PATH}"
+	export PATH
+in my $HOME/.bash_profile file.
+I then have all these files in $HOME/bin.
+
+
+
